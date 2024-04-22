@@ -1,8 +1,18 @@
 import java.util.*;
 public class RandomStringChooser
 {
-  /* to be implemented in part (a) */
-  
-  //Heads up! 
-  //You will get a very confusing error message until you have working code in part b as well
+  public void Random StringChooser( String [] chosenArray){
+    private ArrayList <String> stringList = new Arraylist <String>();
+    for(int i = 0, i < chosenArray.length(); i++)
+      stringList.add(chosenArray[i]);
+  }
+  public String [] getNext(){
+    String temp = "NONE";
+    if(stringList.Size()>0){
+    int choice = (int) (Math.random*stringList.Size());
+    temp = stringList.get(choice);
+    stringList.remove(choice);
+    }
+    return temp;
+  }
 }
