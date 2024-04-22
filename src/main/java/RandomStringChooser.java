@@ -6,7 +6,7 @@ public class RandomStringChooser
     for(int i = 0, i < chosenArray.length(); i++)
       stringList.add(chosenArray[i]);
   }
-  public String [] getNext(){
+  public String getNext(){
     String temp = "NONE";
     if(stringList.Size()>0){
     int choice = (int) (Math.random*stringList.Size());
