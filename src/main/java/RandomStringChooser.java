@@ -9,8 +9,8 @@ public class RandomStringChooser
   }
   public String getNext(){
     String temp = "NONE";
-    if(stringList.Size()>0){
-    int choice = (int) (Math.random*stringList.Size());
+    if(stringList.size()>0){
+    int choice = (int) (Math.random*stringList.size());
     temp = stringList.get(choice);
     stringList.remove(choice);
     }
