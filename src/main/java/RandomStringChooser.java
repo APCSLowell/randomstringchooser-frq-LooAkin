@@ -1,7 +1,7 @@
 import java.util.*;
 public class RandomStringChooser
 {
-  public void Random StringChooser( String [] chosenArray){
+  public void RandomStringChooser( String [] chosenArray){
     private ArrayList <String> stringList = new Arraylist <String>();
     for(int i = 0, i < chosenArray.length(); i++)
       stringList.add(chosenArray[i]);
