@@ -11,8 +11,7 @@ public class RandomStringChooser
     String temp = "NONE";
     if(stringList.size()>0){
     int choice = (int) (Math.random()*stringList.size());
-    temp = stringList.get(choice);
-    stringList.remove(choice);
+    temp = stringList.remove(choice);
     }
     return temp;
   }
