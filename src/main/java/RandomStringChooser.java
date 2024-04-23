@@ -3,10 +3,9 @@ public class RandomStringChooser
 {
   private ArrayList<String> stringList;
   public RandomStringChooser( String [] chosenArray){
-    String [] stringList = new String[chosenArray.length()];
-    for(int i = 0; i < chosenArray.length(); i++)
-      stringList[i] = chosenArray[i];
-    return stringList;
+    stringList = new ArrayLsit <String> ();
+    for(int i = 0; i < chosenArray.length; i++)
+      stringList.add(chosenArray[i]);
   }
   public String getNext(){
     String temp = "NONE";
