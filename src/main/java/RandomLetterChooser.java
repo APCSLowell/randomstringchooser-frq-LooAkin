@@ -3,8 +3,8 @@ public class RandomLetterChooser extends RandomStringChooser
 	
 	public RandomLetterChooser(String str)
 	{ 
-		String selection = getSingleLetters(str);
-		supter(getNext());
+		String [] selection = getSingleLetters(str);
+		super(selection.getNext());
 		
 	}
 	
